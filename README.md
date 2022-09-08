@@ -5,5 +5,5 @@ El proyecto Rockola Thor es un proyecto colaborativo desarrollado en el marco de
 
 ### Creditos
 
-- Javier Alejandro
+- Javier Alejandro Ortiz
 - Manuel Vásquez García
