@@ -7,10 +7,6 @@ package com.rockola.controlador;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-/**
- *
- * @author garciamvasquez
- */
 
 @Controller
 public class ControladorPrincipal {
