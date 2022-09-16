@@ -11,6 +11,6 @@ import org.springframework.data.repository.CrudRepository;
  *
  * @author garciamvasquez
  */
-public interface DiscoDao extends CrudRespository<Disco, Integer>  {
+public interface DiscoDao extends CrudRepository<Disco, Integer>  {
     
 }
