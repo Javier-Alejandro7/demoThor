@@ -11,6 +11,6 @@ import org.springframework.data.repository.CrudRepository;
  *
  * @author garciamvasquez
  */
-public interface ArtistaDao extends CrudRespository<Artista, Integer> {
+public interface ArtistaDao extends CrudRepository<Artista, Integer> {
     
 }

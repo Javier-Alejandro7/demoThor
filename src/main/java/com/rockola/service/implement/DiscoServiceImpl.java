@@ -4,9 +4,9 @@
  */
 package com.rockola.service.implement;
 
-import com.rockola.dao.ArtistaDao;
-import com.rockola.model.Artista;
-import com.rockola.service.ArtistaService;
+import com.rockola.dao.DiscoDao;
+import com.rockola.model.Disco;
+import com.rockola.service.DiscoService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,33 +18,33 @@ import org.springframework.transaction.annotation.Transactional;
  */
 
 @Service
-public class ArtistaServiceImpl implements ArtistaService {
+public class DiscoServiceImpl implements DiscoService{
 
     @Autowired
-    private ArtistaDao artistaDao;
+    private DiscoDao discoDao;
 
     @Override
     @Transactional(readOnly = false)
-    public Artista save(Artista artista) {
-        return artistaDao.save(artista);
+    public Disco save(Disco disco) {
+        return discoDao.save(disco);
     }
 
     @Override
     @Transactional(readOnly = false)
     public void delete(Integer id) {
-        artistaDao.deleteById(id);
+        discoDao.deleteById(id);
     }
 
     @Override
     @Transactional(readOnly = true)
-    public Artista findById(Integer id) {
-        return artistaDao.findById(id).orElse(null);
+    public Disco findById(Integer id) {
+        return discoDao.findById(id).orElse(null);
     }
 
     @Override
     @Transactional(readOnly = true)
-    public List<Artista> findAll() {
-        return (List<Artista>) artistaDao.findAll();
+    public List<Disco> findAll() {
+        return (List<Disco>) discoDao.findAll();
     }
-
+    
 }

@@ -11,6 +11,6 @@ import org.springframework.data.repository.CrudRepository;
  *
  * @author garciamvasquez
  */
-public interface GeneroDao extends CrudRespository<Genero, Integer> {
+public interface GeneroDao extends CrudRepository<Genero, Integer> {
     
 }
