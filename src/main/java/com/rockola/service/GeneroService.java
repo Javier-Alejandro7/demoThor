@@ -11,6 +11,7 @@ import java.util.List;
  *
  * @author garciamvasquez
  */
+
 public interface GeneroService {
     
     public Genero save(Genero genero);

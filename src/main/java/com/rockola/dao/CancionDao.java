@@ -11,6 +11,6 @@ import org.springframework.data.repository.CrudRepository;
  *
  * @author garciamvasquez
  */
-public interface CancionDao extends CrudRespository<Cancion, Integer> {
+public interface CancionDao extends CrudRepository<Cancion, Integer> {
     
 }
