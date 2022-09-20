@@ -5,9 +5,7 @@
 package com.rockola.controlador;
 
 import com.rockola.model.Artista;
-//import com.rockola.model.Transaccion;
 import com.rockola.service.ArtistaService;
-//import com.rockola.service.TransaccionService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
