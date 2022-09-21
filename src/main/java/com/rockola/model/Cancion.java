@@ -19,8 +19,6 @@ import org.hibernate.annotations.GenericGenerator;
  *
  * @author garciamvasquez
  */
-@Entity
-@Table (name="cancion")
 public class Cancion implements Serializable {
     
     @Id
